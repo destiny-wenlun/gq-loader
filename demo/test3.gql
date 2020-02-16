@@ -1,9 +1,9 @@
 #test3    
  
 fragment test3 on XXX {  
-  name 
-  appearsIn 
-  friends {   
-    name
+  name2 
+  appearsIn2 
+  friends2 {   
+    name2
   }
 } 

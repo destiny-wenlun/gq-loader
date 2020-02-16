@@ -1,4 +1,5 @@
 # import './test2.gql'  
+# import './test3.gql'  
 
 query get($name: String) {
   getUser(name: $name) {
@@ -9,5 +10,6 @@ query get($name: String) {
 mutation update($form: User) {
   updateUser(input: $form) {
     ...test2
+    ...test3
   }
 }
